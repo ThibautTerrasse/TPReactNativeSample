@@ -6,6 +6,7 @@ import HomeScreen, { HOME_SCENE_NAME } from './screens/HomeScreen';
 import JsxScreen, { JSX_SCENE_NAME } from './screens/JsxScreen';
 import GreetingsScreen, { GREETINGS_SCENE_NAME } from './screens/GreetingsScreen';
 import StateScreen, { STATE_SCENE_NAME } from './screens/StateScreen';
+import AnimationScreen, { ANIMATION_SCENE_NAME } from './screens/AnimationScreen';
 
 const stackNavigatorConfig = {};
 
@@ -16,6 +17,10 @@ stackNavigatorConfig[HOME_SCENE_NAME] = {
 stackNavigatorConfig[GREETINGS_SCENE_NAME] = {
   screen: GreetingsScreen,
 };
+
+stackNavigatorConfig[ANIMATION_SCENE_NAME] = {
+  screen : AnimationScreen,
+}
 
 stackNavigatorConfig[JSX_SCENE_NAME] = {
   screen: JsxScreen,
